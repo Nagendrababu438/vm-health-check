@@ -1,2 +1,1 @@
-# vm-health-check
-A repository for VM health check script
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
