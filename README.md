@@ -53,3 +53,35 @@ Memory usage: 50.2%
 Disk usage: 55%
 Health status: healthy
 ```
+
+## Step-by-Step Documentation
+
+1. **Clone the Repository**: First, you need to clone the repository to your local machine using the following command:
+   ```
+   git clone https://github.com/githubnext/workspace-blank.git
+   ```
+
+2. **Navigate to the Repository Directory**: Change your current directory to the repository directory:
+   ```
+   cd workspace-blank
+   ```
+
+3. **Make the Script Executable**: Before running the script, you need to make it executable:
+   ```
+   chmod +x health_check.sh
+   ```
+
+4. **Run the Script**: You can run the script without any arguments to check the health status of the VM:
+   ```
+   ./health_check.sh
+   ```
+
+5. **Run the Script with "explain" Argument**: If you want to know the reason for the health status, you can run the script with the "explain" argument:
+   ```
+   ./health_check.sh explain
+   ```
+
+6. **Check the Log File**: The script logs the health status and reasons to a file named `health_check.log`. You can check the log file to see the history of health checks:
+   ```
+   cat health_check.log
+   ```
